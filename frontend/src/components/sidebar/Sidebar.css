@@ -48,13 +48,82 @@ td {
   padding-bottom: 5px;
 }
 
-/* Skills */
+.block {
+  padding-top: 20px;
+  margin: 20px 0px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #39586c;
+  color: white;
+}
+
+.block h3 {
+  margin-top: 0;
+}
+
+.block input[type="text"] {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.block button {
+  margin-top: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #e7eff5;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+  padding: 10px;
+  background-color: #73b3db;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+.remove-button:hover {
+  color: darkred;
+}
 
 button {
-  margin-top: 10px;
   padding: 5px 10px;
-  background-color: #007bff;
-  color: #fff;
+  margin-bottom: 10px;
+  background-color: #66d9df;
+  color: black;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -62,104 +131,6 @@ button {
 
 button:hover {
   background-color: #0069d9;
-}
-
-.skills-remove-button {
-  margin-left: 5px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: red;
-}
-
-.skills-remove-button:hover {
-  color: darkred;
-}
-
-/* Education */
-
-.education-container {
-  margin-bottom: 10px;
-}
-
-.education-label {
-  display: inline-block;
-  width: 100px;
-}
-
-.education-input {
-  margin-left: 10px;
-  padding: 5px;
-  width: 200px;
-}
-
-.education-remove-button {
-  margin-left: 5px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: red;
-}
-
-.education-remove-button:hover {
-  color: darkred;
-}
-
-/* Work Experience */
-.work-experience-container {
-  margin-bottom: 10px;
-}
-
-.work-experience-label {
-  display: inline-block;
-  width: 100px;
-}
-
-.work-experience-input {
-  margin-left: 10px;
-  padding: 5px;
-  width: 200px;
-}
-
-.work-experience-remove-button {
-  margin-left: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: red;
-}
-
-.work-experience-remove-button:hover {
-  color: darkred;
-}
-
-/* Achievements */
-
-.achievement-container {
-  margin-bottom: 10px;
-}
-
-.achievement-label {
-  display: inline-block;
-  width: 100px;
-}
-
-.achievement-input {
-  margin-left: 10px;
-  padding: 5px;
-  width: 200px;
-}
-
-.achievement-remove-button {
-  margin-left: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: red;
-}
-
-.achievement-remove-button:hover {
-  color: darkred;
 }
 
 /* Generate PDF button */
