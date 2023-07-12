@@ -1,0 +1,48 @@
+curl --location 'http://localhost:3001' \
+--header 'Accept: application/pdf' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "template" : "Template3",
+  "firstName": "Lorem",
+  "lastName": "ipsum",
+  "emailAddress": "ipsum@adobe.com",
+  "phoneNumber": "+91 99xx14xx99",
+  "linkedInURL": "https://www.linkedin.com",
+  "jobTitle": "Software Development Engineer",
+  "summary" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.",
+  "skills": [
+    "Strong interpersonal",
+    "communication skills", 
+    "Leadership",
+    "Poised under pressure"
+  ],
+  "education": [
+    {
+      "schoolName": "School",
+      "year": "201X-201Y",
+      "description" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don'\''t look even slightly believable."
+    },
+    {
+      "schoolName": "College",
+      "year": "203X-203Y",
+      "description" : "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc"
+    }
+  ],
+  "workExperience": [
+    {
+      "companyName": "Adobe",
+      "year": "201X-201Y",
+      "description" : "It is a long established fact that a reader will be distracted by the readable content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod"
+    }
+  ],
+  "achievements": [
+    {
+      "type" : "Academics",
+      "description" : "Lorem ipsum dolor sit amet"
+    },
+    {
+      "type" : "Sports",
+      "description" : "consectetuer adipiscing elit"
+    }
+  ]
+}'
